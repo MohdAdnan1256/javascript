@@ -1,0 +1,314 @@
+// var digit1=5;
+
+// alert(digit1);  
+
+// let x = "number";
+// console.log( typeof x)
+
+// let age = 14;
+// let hasvotedcard = "no";
+
+// if(age>=14 && hasvotedcard =='yes'){
+
+//     alert("you can vote!")
+// }else if(age>=14 && hasvotedcard =='yes'){
+//     alert("get your voted id card!");
+// }else{
+
+//     alert("you can not vote")
+// }
+
+// let isLoggedin =0;
+
+// if(isLoggedin ==1){
+//     document.write('login')
+
+// }else{
+//     document.write('logout')
+// }
+
+//  ternary opertor
+// let isLoggedin =0;
+
+// let option =isLoggedin==1? "logout":"login"
+//     //    condition            ture    false
+// document.write(option)
+
+// let user;
+
+// alert(user??"guest user");
+
+// let input;
+
+// input =1;
+
+// switch(input){
+//     case 1:
+//         document.write("continue...")
+//         break
+//         case "y":
+//             document.write("continue...")
+//             break
+//             case "yes":
+//                 document.write("continue...")
+//             break
+
+//             case "n":
+//                 document.write("End...")
+//                 break
+//                 case 0:
+//                     document.write("End...")
+//                     break
+//                     case "no":
+//                 document.write("End...")
+//                 break
+
+// }
+
+// let counter = 1;
+
+// while(counter<=10){
+//     document.write('Teac gun');
+// counter + 2;
+// }
+
+// while loop
+
+// let counter =1;
+// let sum =0;
+
+// while(counter<=100){
+//     if(counter %2==0){
+//         sum=sum+counter;
+//     }
+//     counter++;
+// }
+// document.write(sum);
+
+// do while 
+
+// let counter =1;
+// do{
+//     document.write('techgun');
+//     counter++;
+// }while(counter<=10);
+
+// for(let counter=1; counter<=10; counter++){
+//     if(counter==5){
+//         break;
+//     }
+//     document.write(counter);
+//     document.write("<br>");
+// }
+
+// for(let counter=1; counter<=10; counter++){
+//     if(counter==5){
+//         continue;
+//     }
+//     document.write(counter);
+//     document.write("<br>");
+// }
+// for(let counter=1; counter<=10; counter++){
+    
+//     document.write(counter);
+//     document.write("<br>");
+
+//     for(let counter2 =1; counter<3; counter2++)
+//     document.write('tech gun');
+//     document.write("<br>");
+// }
+
+
+// let age  = prompt('enter your age');
+
+//     if(age != null){
+//         console.log('your age is ${age}');
+//     }
+// else{
+//     console.log('you age in not show');
+// }
+
+// let response = confirm("are you sure ,you wanted delete");
+
+// if( response ){
+//     document.write("delete")
+// }else{
+//     document.write(" not delete")
+
+// }
+
+// typeconwation
+
+// let type =4;
+// console.log(typeof type)
+
+// let newtype = String(type);
+// console.log(typeof newtype)
+
+// let str ="adnan \\ ahmad";
+
+ 
+// string divided to a pararapha is string in a 
+
+// console.log(str);
+
+// let str = "this is javascript tutorial.it is a good for me";
+
+// let substring = str.substr(8,19);
+
+// console.log(substring)
+
+// let book=["math","bio","physich","english","hindi"];
+//  book.splice(1,2);
+
+// console.log(book)
+
+// let text = "this is a book for sale";
+// let wordarray = text.split('s');
+// console.log(wordarray);
+
+// arraylength
+
+// let bookwithpages= [
+//     ["math","200"],
+//     ["physich","150"],
+//     ["english","180"]
+// ];
+// console.log(bookwithpages[0][1])
+// let book=["math","bio","physich","english","hindi"];
+
+// let booklength = book.length;
+
+// for( i=0, i < booklength; i++ ){
+//   console.log(`element ${i} is ${book[i]} \n`);
+// }
+
+// for each
+
+// let book=["math","bio","physich","english","hindi"];
+
+// book.forEach(myfu)
+
+// function myfu(value){
+//   console.log(value)
+// }
+
+// for(i=1;i<=10;i++){
+//   document.write( `2 x ${i} =${2*i}`);
+//   document.write("<br>")
+// }
+
+// function using to print table
+
+// function Multable(num){
+//   for(i=1;i<=10;i++){
+//     document.write(`${num} x ${i} = ${num*i}`);
+//     document.write("<br>")
+//   }
+//   document.write("<br><br>")
+// }
+// Multable(2);
+// document.write("<br>")
+// Multable(5);
+// document.write("<br>")
+// Multable(6);
+// document.write("<br>")
+// Multable(7);
+// document.write("<br>")
+// Multable(8);
+// document.write("<br>")
+// Multable(9);
+// document.write("<br>")
+// Multable(5);
+
+// function add(a,b){
+//   console.log(a+b);
+// }
+// add(5,6)
+
+// function compare(a,b){
+//   if(a > b){
+//   return 1;
+// }
+// else if(b > a){
+//   return -1;
+// }else{
+//   return 0;
+// }
+// }
+
+// let c =compare (5,6);
+// document.write(c);
+
+
+// anonymous function
+
+
+// let show= function(){
+//   console.log("hello world")
+// };
+
+// show();
+
+// setTimeout
+
+
+// function show(){
+//   console.log("adnan")
+// };
+
+// setTimeout(show,3000);
+
+
+// immedtly
+
+// (function(){
+
+//   let str = "hello";
+
+//   console.log(str);
+
+//   alert(str);
+
+// })();
+
+// let msg = "hello my jv"
+
+// function show(){
+
+// console.log(msg);
+
+// }
+// show()
+
+
+// let person ={
+//     firstname: 'adnan',
+//     lastname: "mohd",
+//     age:44
+// }
+
+// delete person.lastname
+//  console.log(person)
+
+// let person ={
+//     firstname: 'adnan',
+//     lastname: "mohd",
+//     age:44,
+//   sayhello(){
+//     console.log("hello i am "+ this.firstname+" and i have a "+car.brand+ " new car")
+// }
+// };
+
+// let car ={
+//     brand:'tata',
+//     model: 'safari'
+// }
+// person.sayhello();
+
+let x = Math.random();
+
+console.log(x)
+
+
+
