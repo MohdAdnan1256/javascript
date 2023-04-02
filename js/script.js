@@ -536,8 +536,109 @@
 
 // list1.appendChild(iteam)
 
+// add in div tag inner
+
+// let list1 = document.getElementById("list");
+// let iteam = document.createElement("li")
+// iteam.textContent = "list 5";
+
+// let pos = list1.firstElementChild;
+
+// list1.insertBefore(iteam,pos)
+
+// add in new h1 body parent
+
+// let parent = document.body;
+
+// let elm = document.createElement("h2");
+// elm.textContent ="this is new element";
+
+// let list = document.getElementById("list");
+
+// parent.insertBefore(elm, list);
+
+// remove first chaild
+
+// let parent = document.getElementById("menu")
+
+// let elm = parent.firstElementChild;
+// console.log(elm);
+
+// parent.removeChild(elm);
+
+// remove secand chaild
+
+// let parent = document.getElementById("menu")
+
+// let elm = parent.firstElementChild.nextElementSibling;
+// console.log(elm);
+
+// parent.removeChild(elm);
+
+// remove parent
+
+// let parent = document.getElementById("menu")
+
+// let elm = parent.firstElementChild.nextElementSibling;
+// console.log(elm);
+
+// document.body.removeChild(parent)
+
+// clone in chaild
+ 
+
+// let menu = document.getElementById("menu")
+
+// let cloneElm = menu.clonenode(true);
+
+// console.log(cloneElm)
+
+// body clone 
+
+// let menu = document.getElementById("menu");
+
+// let cloneElm = menu.cloneNode(true);
+// cloneElm.id="mobile menu";
+
+// document.body.appendChild(cloneElm);
+
+// replace chaild    element
+
+// let parent = document.getElementById("menu");
+
+// let iteam = document.createElement("li");
+// iteam.textContent = "services";
+
+// let replace = parent.firstElementChild.nextElementSibling
+
+// parent.replaceChild(iteam,replace);
+
+// 1-beforeend
+// 2-Afterbegin
+// 3-afterend
+// 4-beforend
+
+// let elm = document.getElementById("intro")
+
+// let html = "<h1>new h1</h1>";
+
+// elm.insertAdjacentHTML("beforeend",html)
+
+// change attribute
+
+// let btn = document.getElementById("btn")
+// btn.setAttribute("name","form1")
+
+// let val = btn.getAttribute("name");
+
+// console.log(val);
+
+// inline style 
+
+// let btn = document.getElementById("btn")
+// btn.style.cssText ="background-color:red;color: white;"
+
+// btn.setAttribute('style','color:white; background-color:red;')
 
 
-
-
-
+ 
