@@ -306,9 +306,85 @@
 // }
 // person.sayhello();
 
-let x = Math.random();
+// let x = Math.random();
 
-console.log(x)
+// console.log(x)
 
+// let person ={
+//     firstname:'mohd',
+//     lastname:'adnan',
+//     age:23
+// ()};
+// console.log("hello my is name"+ this.firstname+"and my")
+
+// let person = {
+//     firstname:"adnan",
+//     age:41,
+// }
+// person.lastname="mohd"
+
+// for (let key in person){
+//     console.log(key+":"+person[key]);
+// }
+
+// function getRandom (min, max){
+//     let x = math.floor ( math.random () * (max - min ) ) + min;
+//     return x;
+
+// }
+//  console.log(getRandom (10 , 20))
+
+
+// let x = new Date("october 13, 2020 11:12:33")
+
+// let y = new Date();
+
+// if(y>x){
+//     console.log("x is past date");
+
+// }else if(x>y){
+//     console.log("x is future date");
+// }
+// else{
+//     console.log("x is same date");
+// }
+
+
+// function Student( first , last , age , cls){
+//     this.firstname =first
+//     this.lastname = last;
+//     this.age = age;
+//     this.class = cls;
+// }
+// var student1 = new Student("adnan","mohd",24,12);
+// let student2 = new Student("ahmad","mohd",24,12);
+
+// console.log(student1);
+// console.log(student2);
+
+
+let user ={
+
+    id: 101,
+
+    email:"abc@gmail.com",
+
+    personinfo :{
+
+name:"adnan",
+
+adders:{
+
+    street :"millat",
+
+    city:"basti",
+
+    country: "india"
+}
+    }
+
+};
+
+console.log(user);
 
 
