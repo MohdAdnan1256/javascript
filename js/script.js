@@ -363,28 +363,181 @@
 // console.log(student2);
 
 
-let user ={
+// let user ={
 
-    id: 101,
+//     id: 101,
 
-    email:"abc@gmail.com",
+//     email:"abc@gmail.com",
 
-    personinfo :{
+//     personinfo :{
 
-name:"adnan",
+// name:"adnan",
 
-adders:{
+// adders:{
 
-    street :"millat",
+//     street :"millat",
 
-    city:"basti",
+    // city:"basti",
 
-    country: "india"
-}
-    }
+    // country: "india"
+// }
+//     }
 
-};
+// };
+// console.log(user);
 
-console.log(user);
+// let person =(){
+    
+// }
+
+
+//  tag id select?
+
+
+// let elm =document.getElementsByTagName("h2");
+// console.log(elm)
+// console.log(elm.innerHTML)
+// elm.innerHTML = " <p> hello</p> ";
+
+// console.log(elm.length)
+
+// for(let i =0; i<elm.length;i++){
+//     elm[i].innerHTML = "hello"
+// }
+
+
+// get element by tag name
+
+// let div1=document.getElementById("div1")
+// let elm =div1.getElementsByTagName("h2");
+
+// for(let i =0; i<elm.length;i++){
+//     elm[i].innerHTML = "hello"
+// }
+
+// query selector
+
+// let elm = document.querySelectora("p.intro")
+// console.log(elm);
+
+
+// for(let i = 0; i <elm.length;i++){
+//     elm[i].innerHTML = "hello"
+// }
+
+// query selector all
+
+// let elm = document.querySelectorAll("p.intro")
+
+// console.log(elm);
+
+
+// for(let i = 0; i <elm.length;i++){
+
+//     elm[i].innerHTML = "hello"
+// }
+
+// parent selector
+
+// let elm = document.getElementById("intro")
+// let prt = elm.parentElement;
+// console.log(prt)
+
+// traversing Element
+
+// let elm = document.getElementById("intro")
+// let node = elm.children;
+// console.log(node)
+
+// first chaild selector
+
+// let elm = document.getElementById("intro")
+// let node = elm.firstElementChild;
+// console.log(node)
+
+// last chaild selector
+
+// let elm = document.getElementById("intro")
+// let node = elm.lastElementChild;
+// console.log(node)
+
+// full chaild selector
+
+// let elm = document.getElementById("intro")
+// let node = elm.children;
+
+// console.log(node)
+
+// sibling selector
+
+// let elm = document.getElementById("intro")
+// let node = elm.children;
+// console.log(node)
+
+
+// priveiws sibling selector
+
+// let elm = document.getElementById("intro")
+// let node = elm.previousElementSibling;
+// console.log(node)
+
+// next sibling sectector
+
+// let elm = document.getElementById("intro")
+// let node = elm.nextElementSibling;
+// console.log(node)
+
+
+// innter html fatch
+
+// let elm = document.getElementById("intro")
+
+// let contant = elm.innerHTML;
+// console.log(contant);
+
+// set in inner html 
+
+// let elm = document.getElementById("intro")
+
+// elm.innerHTML = "<h1> this is a heading <h1>"
+
+// add id class 
+
+// h1.className = "try";
+// h1.id="pi"
+
+// create and 
+
+// append element
+
+// let elm = document.getElementById("intro")
+
+// let h1 = document.createElement('h1')
+
+// h1.className = "try pi";
+// h1.id="intro1"
+// let text = document.createTextNode("this is a h1 tag")
+// h1.appendChild(text);
+
+// h1.textContent = "contant added";
+
+// elm.appendChild(h1)
+
+// document.body.appendChild(h1);
+
+// let pra = document.getElementById("p1");
+// console.log(pre.textContent)
+
+// add new li iteam in ul tag
+
+// let list1 = document.getElementById("list");
+// let iteam = document.createElement("li")
+// iteam.textContent = "list 5";
+
+// list1.appendChild(iteam)
+
+
+
+
 
 
