@@ -640,5 +640,160 @@
 
 // btn.setAttribute('style','color:white; background-color:red;')
 
+// let css = getComputedStyle(btn);
+// console.log(css.color)
 
- 
+// get css color
+
+// let box = document.getElementById("box");
+// box.classList.replace("color","dim")
+
+//  height width
+
+//  let box = document.getElementById("box");
+
+//  let width = box.offsetWidth;
+//  let height = box.offsetHeight;
+
+//  console.log(width);
+//  console.log(height);
+
+//                  dom event using inline
+
+// function btnclick(){
+//     alert("button was click")
+// }
+// let btn = document.getElementById("btn");
+
+// btn.addEventListener('click',btnclick);
+  
+
+// dom using add  Event Listener
+
+// function btnclick() {
+//     alert("button was click")
+// }
+// let btn = document.getElementById("btn");
+
+// btn.addEventListener('click',function() {
+//     alert("btn was clicked")
+// });
+// btn.addEventListener('mouseover', function() {
+//     alert("mouse is over is activated")
+// })
+// btn.addEventListener('mouseout', function() {
+//     alert("mouse out is activated")
+// })
+
+//                   two click event
+
+
+// let btn = document.getElementById("btn");
+
+// function click1(){
+//     console.log("click1 activated")
+// }
+// function click2(){
+//     console.log("click2 activated")
+// }
+
+// btn.addEventListener('click', click1);
+// btn.addEventListener('click',click2);
+
+// remove event
+
+
+// let btn = document.getElementById("btn");
+
+// function click1(){
+//     console.log("click1 activated")
+// }
+// function click2(){
+//     console.log("click2 activated")
+// }
+
+// btn.addEventListener('click', click1);
+// btn.addEventListener('click',click2);
+
+// btn.removeEventListener('click',click2);
+
+
+// page load ?
+
+// function fun(){
+// alert(" mouse up event")
+
+// }
+
+// key up and key down
+
+// window.document.addEventListener('keydown', checkkey);
+
+// function checkkey(event){
+//     console.log(event.key);
+
+// }
+
+// Scroll events
+
+// window.addEventListener('scroll',function(){
+//     console.log("scrolling...");
+// })
+
+// imput event
+
+// let x= document.getElementById("mystore");
+
+// x.addEventListener('foces',myfocusfunction);
+// x.addEventListener('blur',myblurfunction);
+
+// function myfocusfunction(){
+//     x.style.background = "yellow";
+// }
+
+// function myblurfunction(){
+//     x.style.background = "white";
+
+// }
+
+// pervent defult
+
+// let link = document.getElementById("anchar")
+
+// link.addEventListener("click",function(e){
+//     console.log("link clicked")
+//     e.preventDefault();
+// })
+
+// set time out
+
+// setTimeout(myFunction,5000);
+// function myFunction(){
+//     alert("please vote")
+// }
+
+// set time out plase subcribe
+
+// setInterval(fun,2000);
+
+// function fun(){
+//     console.log("please subscribe")
+// }
+
+
+// location object
+
+// function fun(){
+//     location.replace ("https://www.google.com");
+
+// }
+
+// screen object
+
+console.log (screen.width);
+console.log (screen.height);
+console.log (screen.colorDepth);
+console.log (screen.orientation);
+
+
+
